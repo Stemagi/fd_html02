@@ -6,40 +6,59 @@
 </head>
 <body>
   <!-- nav>ul>li*30>a[href="#article$"]{link to arcticle $} -->
+  <!-- nav>ol>(li>p{outside menu}+ul>li*3>a[target="_blank"] href="https://"{link})+(li>p{ancors menu}+ul>li*30>a[href="#article$"]{article $}) -->
   <nav>
-    <ul>
-      <li><a href="#article1">link to arcticle 1</a></li>
-      <li><a href="#article2">link to arcticle 2</a></li>
-      <li><a href="#article3">link to arcticle 3</a></li>
-      <li><a href="#article4">link to arcticle 4</a></li>
-      <li><a href="#article5">link to arcticle 5</a></li>
-      <li><a href="#article6">link to arcticle 6</a></li>
-      <li><a href="#article7">link to arcticle 7</a></li>
-      <li><a href="#article8">link to arcticle 8</a></li>
-      <li><a href="#article9">link to arcticle 9</a></li>
-      <li><a href="#article10">link to arcticle 10</a></li>
-      <li><a href="#article11">link to arcticle 11</a></li>
-      <li><a href="#article12">link to arcticle 12</a></li>
-      <li><a href="#article13">link to arcticle 13</a></li>
-      <li><a href="#article14">link to arcticle 14</a></li>
-      <li><a href="#article15">link to arcticle 15</a></li>
-      <li><a href="#article16">link to arcticle 16</a></li>
-      <li><a href="#article17">link to arcticle 17</a></li>
-      <li><a href="#article18">link to arcticle 18</a></li>
-      <li><a href="#article19">link to arcticle 19</a></li>
-      <li><a href="#article20">link to arcticle 20</a></li>
-      <li><a href="#article21">link to arcticle 21</a></li>
-      <li><a href="#article22">link to arcticle 22</a></li>
-      <li><a href="#article23">link to arcticle 23</a></li>
-      <li><a href="#article24">link to arcticle 24</a></li>
-      <li><a href="#article25">link to arcticle 25</a></li>
-      <li><a href="#article26">link to arcticle 26</a></li>
-      <li><a href="#article27">link to arcticle 27</a></li>
-      <li><a href="#article28">link to arcticle 28</a></li>
-      <li><a href="#article29">link to arcticle 29</a></li>
-      <li><a href="#article30">link to arcticle 30</a></li>
-    </ul>
+    <ol>
+      <li>
+        <p>ancors menu</p>
+        <ul>
+          <li><a href="#article1">article 1</a></li>
+          <li><a href="#article2">article 2</a></li>
+          <li><a href="#article3">article 3</a></li>
+          <li><a href="#article4">article 4</a></li>
+          <li><a href="#article5">article 5</a></li>
+          <li><a href="#article6">article 6</a></li>
+          <li><a href="#article7">article 7</a></li>
+          <li><a href="#article8">article 8</a></li>
+          <li><a href="#article9">article 9</a></li>
+          <li><a href="#article10">article 10</a></li>
+          <li><a href="#article11">article 11</a></li>
+          <li><a href="#article12">article 12</a></li>
+          <li><a href="#article13">article 13</a></li>
+          <li><a href="#article14">article 14</a></li>
+          <li><a href="#article15">article 15</a></li>
+          <li><a href="#article16">article 16</a></li>
+          <li><a href="#article17">article 17</a></li>
+          <li><a href="#article18">article 18</a></li>
+          <li><a href="#article19">article 19</a></li>
+          <li><a href="#article20">article 20</a></li>
+          <li><a href="#article21">article 21</a></li>
+          <li><a href="#article22">article 22</a></li>
+          <li><a href="#article23">article 23</a></li>
+          <li><a href="#article24">article 24</a></li>
+          <li><a href="#article25">article 25</a></li>
+          <li><a href="#article26">article 26</a></li>
+          <li><a href="#article27">article 27</a></li>
+          <li><a href="#article28">article 28</a></li>
+          <li><a href="#article29">article 29</a></li>
+          <li><a href="#article30">article 30</a></li>
+        </ul>
+      </li>
+    </ol>
   </nav>
+  <nav>
+    <ol>
+      <li>
+        <p>outside menu</p>
+        <ul>
+          <li><a href="https://google.com" target="_blank">google</a></li>
+          <li><a href="https://fb.com" target="_blank">facebook</a></li>
+          <li><a href="./pages/about.html" target="_blank">sec_page</a></li>
+        </ul>
+      </li>
+    </ol>
+  </nav>
+
   <h1>Heading for page</h1>
   <!-- article#article$*30>h2{title $ article}+p*2>lorem30 -->
   <article id="article1">
